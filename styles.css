@@ -24,6 +24,23 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 
-  repeat(4, 1fr);
+  grid-template-columns: 50px 50px 50px 50px
+  
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header header header" 
+  "main main .sidbar"
+  "footer footer footer gooter";
 }
+
+p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+  
