@@ -1,46 +1,13 @@
 body {
-  background-color: bisque;
-}
-
-
-
-/* NAV */
-.dropdown-item {
-  font-family: monospace;
-  color: yellow;
-  font-size: medium;
-  background-color: black;
- 
-}
-
-.dropdown-menu {
-  position: 0;
-  padding: 0;
-  margin: 0;
-  
-}
-
-/* Header*/
-
-.container {
   display: grid;
-  grid-template-columns: 50px 50px 50px 50px
-  
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
   grid-template-rows: auto;
   grid-template-areas: 
-  "header header header header" 
-  "main main .sidbar"
-  "footer footer footer gooter";
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
 }
 
-p {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
-/*Footer*/
 
-footer {
-  display: flex;
-  justify-content: center;
-}
-  
